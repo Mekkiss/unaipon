@@ -1,0 +1,157 @@
+\newcounter{xp}
+\newcounter{ecl}
+\newcounter{age}
+\newcounter{totalhp}
+\newcounter{currenthp}
+\newcounter{str}
+\newcounter{dex}
+\newcounter{con}
+\newcounter{int}
+\newcounter{wis}
+\newcounter{cha}
+\newcounter{strmod}
+\newcounter{dexmod}
+\newcounter{conmod}
+\newcounter{intmod}
+\newcounter{wismod}
+\newcounter{chamod}
+\newcounter{sizemod}
+\newcounter{initmod}
+\newcounter{initmisc} %misc initiative modifier
+\newcounter{ac}
+\newcounter{touchac}
+\newcounter{flatfootedac}
+\newcounter{acarmour}
+\newcounter{acshield}
+\newcounter{acdex}
+\newcounter{acsize}
+\newcounter{acnatural}
+\newcounter{acdeflect}
+\newcounter{acmisc}
+\newcounter{acmaxdex}
+\newcounter{fort}
+\newcounter{reflex}
+\newcounter{will}
+\newcounter{basefort}
+\newcounter{baseref}
+\newcounter{basewill}
+\newcounter{resistancesave}
+\newcounter{magicfort}
+\newcounter{magicref}
+\newcounter{magicwill}
+\newcounter{fortmisc}
+\newcounter{refmisc}
+\newcounter{willmisc}
+\newcounter{cmb}
+\newcounter{cmd}
+\newcounter{cmbmisc}
+\newcounter{cmdmisc}
+\newcounter{bab}
+\newcounter{spellresistance}
+\newcounter{lightload}
+\newcounter{medload}
+\newcounter{heavyload}
+\newcounter{money}
+\newcounter{casterlevel}
+
+\newcommand{\charname}{Unaipon}
+\newcommand{\charrace}{Human}
+\newcommand{\charclass}{Inquisitor of Achaekek 5/Unchained Rogue 1}
+\newcommand{\charalignment}{LN}
+\newcommand{\charsex}{Male}
+\newcommand{\charsize}{Medium}
+\setcounter{sizemod}{0}
+\newcommand{\chartype}{Humanoid (Human)}
+\newcommand{\charheight}{6'2``}
+\newcommand{\charweight}{130lb}
+\newcommand{\charhair}{Black}
+\newcommand{\chareyes}{Red}
+\setcounter{age}{26}
+
+\setcounter{xp}{0}
+\setcounter{ecl}{1}
+
+\setcounter{totalhp}{50}
+\setcounter{currenthp}{50}
+\newcommand{\speed}{30'}
+
+\setcounter{str}{11} % 3
+\setcounter{dex}{20} % 7 (+1 4th)
+\setcounter{con}{16} % 5
+\setcounter{int}{11} % 1
+\setcounter{wis}{15} % 7
+\setcounter{cha}{7} % -4
+
+
+\setcounter{acnatural}{0}
+\setcounter{acarmour}{4}
+\setcounter{acmaxdex}{6} %maximum dexterity modifier armour allows. Use a high number for none
+
+\setcounter{initmisc}{\value{wis}/2 - 5} %kludge (wismod isn't available yet)
+
+\setcounter{basefort}{4}
+\setcounter{baseref}{3}
+\setcounter{basewill}{4}
+\setcounter{resistancesave}{0}
+\setcounter{bab}{4}
+\setcounter{spellresistance}{0}
+
+\setcounter{cmdmisc}{\value{acdeflect}}
+
+\newcommand{\feats}{
+ Exotic Weapon Proficiency (Sawtooth Sabre), Weapon Finesse${}^{b}$, Two-weapon fighting, Power Attack, Weapon Focus (Sawtooth Sabre), Slashing Grace (Sawtooth Sabre), Shake it Off (teamwork; changable), Quick Draw\\
+}
+
+\newcommand{\traits}{
+Armor expert \\
+Magical Knack\\
+}
+\newcommand{\specialabilities}{
+Conversion Inquisition, Judgement 1/day, Monster Lore +\arabic{wismod}, Stern Gaze +1, Detect Alignment, Solo Tactics
+}
+
+\newcommand{\conditionalmods}{
++2 Vs Enchantment\\
+}
+\newcommand{\languages}{
+Common, Kelish, Gnome, Varision \\
+}
+\setcounter{lightload}{16}
+\setcounter{medload}{33}
+\setcounter{heavyload}{\value{lightload} + \value{medload}}
+
+\setcounter{money}{0}
+
+\newcommand{\conditionalspellmods}{
+}
+
+\setcounter{casterlevel}{6}
+
+\newcommand{\spellsknown}{
+\begin{compactenum}
+\item [2nd] \spell{Silence}, \spell{Inheriter's Smite}, \spell{See invisible}
+\item [1st] \spell{True Strike}, \spell{Litany of Weakness}, \spell{Divine Favour}, \spell{Bless}
+\item [0]   \spell{Guidance}, \spell{Detect Magic}, \spell{Detect Poison}, \spell{Brand}, \spell{Acid Splash}, \spell{Sift}
+\end{compactenum}
+}
+
+\newcommand{\domains}{
+None
+}
+\newcommand{\notes}{
+0/4 Prestige
+}
+\newcommand{\people}{
+}
+
+\input{../pathfinder_society.tex}
+
+\newcommand{\scenariolist}{
+
+}
+
+
+\newcommand{\biography}{
+
+}
+
