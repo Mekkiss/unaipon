@@ -56,7 +56,7 @@
 
 \newcommand{\charname}{Unaipon}
 \newcommand{\charrace}{Human}
-\newcommand{\charclass}{Inquisitor of Achaekek 5/Unchained Rogue 1}
+\newcommand{\charclass}{Inquisitor of Achaekek 5/Unchained Rogue 2}
 \newcommand{\charalignment}{LN}
 \newcommand{\charsex}{Male}
 \newcommand{\charsize}{Medium}
@@ -71,8 +71,8 @@
 \setcounter{xp}{0}
 \setcounter{ecl}{1}
 
-\setcounter{totalhp}{50}
-\setcounter{currenthp}{50}
+\setcounter{totalhp}{59}
+\setcounter{currenthp}{59}
 \newcommand{\speed}{30'}
 
 \setcounter{str}{11} % 3
@@ -85,21 +85,22 @@
 
 \setcounter{acnatural}{0}
 \setcounter{acarmour}{6}
+\setcounter{acshield}{1}
 \setcounter{acmaxdex}{6} %maximum dexterity modifier armour allows. Use a high number for none
 
 \setcounter{initmisc}{\value{wis}/2 - 5} %kludge (wismod isn't available yet)
 
 \setcounter{basefort}{4}
-\setcounter{baseref}{3}
+\setcounter{baseref}{4}
 \setcounter{basewill}{4}
 \setcounter{resistancesave}{0}
-\setcounter{bab}{4}
+\setcounter{bab}{5}
 \setcounter{spellresistance}{0}
 
 \setcounter{cmdmisc}{\value{acdeflect}}
 
 \newcommand{\feats}{
- Exotic Weapon Proficiency (Sawtooth Sabre), Weapon Finesse${}^{b}$, Two-weapon fighting, Power Attack, Weapon Focus (Sawtooth Sabre), Slashing Grace (Sawtooth Sabre), Shake it Off (teamwork; changable), Quick Draw\\
+ Exotic Weapon Proficiency (Sawtooth Sabre), Weapon Finesse${}^{b}$, Two-weapon fighting, Power Attack, Weapon Focus (Sawtooth Sabre), Slashing Grace (Sawtooth Sabre), Shake it Off (teamwork; changable), Quick Draw, Two-weapon defence, Accomplished Sneak Attacker\\
 }
 
 \newcommand{\traits}{
@@ -107,7 +108,7 @@ Armor expert \\
 Magical Knack\\
 }
 \newcommand{\specialabilities}{
-Conversion Inquisition, Judgement 1/day, Monster Lore +\arabic{wismod}, Stern Gaze +1, Detect Alignment, Solo Tactics
+Conversion Inquisition, Judgement 1/day, Monster Lore +\arabic{wismod}, Stern Gaze +1, Detect Alignment, Solo Tactics, Evasion, Sneak attack +2d6, trapfinding
 }
 
 \newcommand{\conditionalmods}{
@@ -125,12 +126,12 @@ Common, Kelish, Gnome, Varision \\
 \newcommand{\conditionalspellmods}{
 }
 
-\setcounter{casterlevel}{6}
+\setcounter{casterlevel}{7}
 
 \newcommand{\spellsknown}{
 \begin{compactenum}
 \item [2nd] \spell{Silence}, \spell{Inheriter's Smite}, \spell{See invisible}
-\item [1st] \spell{True Strike}, \spell{Litany of Weakness}, \spell{Divine Favour}, \spell{Bless}
+\item [1st] \spell{True Strike}, \spell{Litany of Weakness}, \spell{Divine Favour}, \spell{Bless}, \spell{Comprehend Languages}, \spell{Heightened Awareness}
 \item [0]   \spell{Guidance}, \spell{Detect Magic}, \spell{Detect Poison}, \spell{Brand}, \spell{Acid Splash}, \spell{Sift}
 \end{compactenum}
 }
