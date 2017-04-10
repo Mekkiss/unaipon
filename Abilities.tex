@@ -56,7 +56,7 @@
 
 \newcommand{\charname}{Unaipon}
 \newcommand{\charrace}{Human}
-\newcommand{\charclass}{Inquisitor of Achaekek 5/Unchained Rogue 2}
+\newcommand{\charclass}{Inquisitor of Achaekek 5/Unchained Rogue 3}
 \newcommand{\charalignment}{LN}
 \newcommand{\charsex}{Male}
 \newcommand{\charsize}{Medium}
@@ -68,17 +68,17 @@
 \newcommand{\chareyes}{Red}
 \setcounter{age}{26}
 
-\setcounter{xp}{0}
-\setcounter{ecl}{1}
+\setcounter{xp}{21}
+\setcounter{ecl}{7}
 
-\setcounter{totalhp}{59}
-\setcounter{currenthp}{59}
+\setcounter{totalhp}{72}
+\setcounter{currenthp}{72}
 \newcommand{\speed}{30'}
 
 \setcounter{str}{11} % 3
 \setcounter{dex}{20} % 7 (+1 4th)
 \setcounter{con}{16} % 5
-\setcounter{int}{11} % 1
+\setcounter{int}{12} % 1 (+1 8th)
 \setcounter{wis}{15} % 7
 \setcounter{cha}{7} % -4
 
@@ -90,32 +90,38 @@
 
 \setcounter{initmisc}{\value{wis}/2 - 5} %kludge (wismod isn't available yet)
 
-\setcounter{basefort}{4}
+\setcounter{basefort}{5}
 \setcounter{baseref}{4}
-\setcounter{basewill}{4}
-\setcounter{resistancesave}{0}
-\setcounter{bab}{5}
+\setcounter{basewill}{5}
+\setcounter{resistancesave}{2}
+\setcounter{bab}{6}
 \setcounter{spellresistance}{0}
 
 \setcounter{cmdmisc}{\value{acdeflect}}
 
 \newcommand{\feats}{
- Exotic Weapon Proficiency (Sawtooth Sabre), Weapon Finesse${}^{b}$, Two-weapon fighting, Power Attack, Weapon Focus (Sawtooth Sabre), Slashing Grace (Sawtooth Sabre), Shake it Off (teamwork; changable), Quick Draw, Two-weapon defence, Accomplished Sneak Attacker\\
+ Exotic Weapon Proficiency (Sawtooth Sabre)${}^{b}$,
+ Weapon Finesse${}^{b}$,
+ Two-weapon fighting (human),
+ Pirhana strike (1st),
+ Weapon Focus (Sawtooth Sabre) (3rd)
+ Shake it Off (teamwork; changable),
+ Quick Draw (5th),
+ Two-weapon defence (7th), Accomplished Sneak Attacker\\
 }
 
 \newcommand{\traits}{
-Armor expert \\
-Magical Knack\\
+Armor expert, Magical Knack\\
 }
 \newcommand{\specialabilities}{
-Conversion Inquisition, Judgement 1/day, Monster Lore +\arabic{wismod}, Stern Gaze +1, Detect Alignment, Solo Tactics, Evasion, Sneak attack +2d6, trapfinding
+Conversion Inquisition, Judgement 1/day, Monster Lore +\arabic{wismod}, Stern Gaze +1, Detect Alignment, Solo Tactics, Evasion, Sneak attack +3d6, trapfinding, Danger sense +1
 }
 
 \newcommand{\conditionalmods}{
-+2 Vs Enchantment\\
++2 Vs Enchantment, +1 to perception and reflex saves vs traps\\
 }
 \newcommand{\languages}{
-Common, Kelish, Gnome, Varision \\
+Common, Varision, Auran \\
 }
 \setcounter{lightload}{16}
 \setcounter{medload}{33}
